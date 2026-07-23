@@ -1,0 +1,12 @@
+/* Ajustes para 3 soluções (Mineração, Concreto, Pavimentação) */
+@media (min-width: 900px) {
+  .service-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Fallback de fonte: usa a stack padrão do sistema, já que os arquivos
+   da fonte Geist não fazem parte deste repositório estático. */
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
